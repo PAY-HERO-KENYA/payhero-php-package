@@ -13,11 +13,15 @@ This PHP client library enables easy interaction with the PayHero API, allowing 
 - **Withdrawals:** Withdraw funds to mobile or bank accounts via SasaPay.
 
 ## Installation
+To get started run this command in your terminal:
+```markdown
+npm i payhero-php
+```
 
 To use this PHP client in your project, simply include the `PayHeroAPI` class in your PHP script.
 
 ```php
-require_once 'path/to/ph-class.php';
+require_once 'node_modules/payhero-php/ph-class.php';
 ```
 
 ## Usage
@@ -53,6 +57,30 @@ $stkPushResponse = $payHeroAPI->SendCustomerMpesaStkPush($amount, $phone, $chann
 
 ```php
 $transactionStatus = $payHeroAPI->getTransactionStatus($reference);
+```
+
+### Get Account Transactions
+
+```php
+$accountTransactions = $payHeroAPI->getAccountTransactions($reference);
+```
+
+### Processing SasaPay Payments
+
+```php
+$sasapayPaymentResponse = $payHeroAPI-> sasaPayPayment($amount,$phone,$network_code,$external_reference,$callback_url);
+```
+
+### Making Withdrawals To Mobile
+
+```php
+$withdrawalResponse = $payHeroAPI->sasaPayWithdrawToMobile($amount,$phone,$network_code,$external_reference,$callback_url);
+```
+
+### Making Withdrawals To Bank
+
+```php  
+$withdrawalResponse = $payHeroAPI->sasaPayWithdrawToBank($amount,$account_number,$network_code,$external_reference,$callback_url);
 ```
 
 ## Requirements

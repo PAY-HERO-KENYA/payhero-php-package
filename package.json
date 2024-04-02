@@ -1,0 +1,28 @@
+{
+  "name": "payhero-php",
+  "version": "1.0.0",
+  "description": "This PHP client library enables easy interaction with the PayHero API, allowing developers to integrate PayHero's payment processing capabilities into their PHP applications. With this client, you can perform operations like checking wallet balances, topping up service wallets, initiating payments, and querying transaction statuses.",
+  "main": "ph-class.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PAY-HERO-KENYA/payhero-php-package.git"
+  },
+  "keywords": [
+    "payhero",
+    "payhero",
+    "api",
+    "mpesa",
+    "api",
+    "payment",
+    "api"
+  ],
+  "author": "Pay Hero Kenya LTD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PAY-HERO-KENYA/payhero-php-package/issues"
+  },
+  "homepage": "https://github.com/PAY-HERO-KENYA/payhero-php-package#readme"
+}
