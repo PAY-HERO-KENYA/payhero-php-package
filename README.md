@@ -1,4 +1,3 @@
-```markdown
 # PayHeroAPI PHP Client
 
 This PHP client library enables easy interaction with the PayHero API, allowing developers to integrate PayHero's payment processing capabilities into their PHP applications. With this client, you can perform operations like checking wallet balances, topping up service wallets, initiating payments, and querying transaction statuses.
