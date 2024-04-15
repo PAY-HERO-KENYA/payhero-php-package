@@ -23,7 +23,7 @@ composer require payherokenya/payhero-php
 To use this PHP client in your project, simply include the `PayHeroAPI` class in your PHP script.
 
 ```php
-require_once 'ph-class.php';
+require_once 'vendor/payherokenya/payhero-php/ph-class.php';
 ```
 
 ## Usage
