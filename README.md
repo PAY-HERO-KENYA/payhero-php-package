@@ -108,4 +108,4 @@ Pay Hero Kenya LTD
 
 ## Version
 
-1.0.0
+1.0.1
