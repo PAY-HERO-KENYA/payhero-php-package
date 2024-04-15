@@ -17,7 +17,7 @@ To be able to generate API keys with Pay Hero to use our API services you need t
 ## Installation
 To get started run this command in your terminal:
 ```markdown
-npm i payhero-php
+composer require payherokenya/payhero-php
 ```
 
 To use this PHP client in your project, simply include the `PayHeroAPI` class in your PHP script.
@@ -97,4 +97,15 @@ Contributions to the PayHeroAPI PHP client are welcome. Please ensure that your 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
+
+## Author
+
+Pay Hero Kenya LTD
+
+## Maintainers
+
+- [Pay Hero Kenya LTD](https://github.com/PAY-HERO-KENYA)
+
+## Version
+
+1.0.0
